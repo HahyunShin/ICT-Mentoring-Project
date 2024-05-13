@@ -13,7 +13,8 @@ paths = []
 
 if not os.path.exists('/content/custom'):
   os.makedirs('/content/custom')
-  
+
+# comment  
 # classes. names 파일 생성
 with open(YOLO_FORMAT_PATH + '/' + 'classes.names', 'w') as names, \
      open(COLAB_DARKNET_PATH + '/dataset/' + 'classes.txt', 'r') as txt:
